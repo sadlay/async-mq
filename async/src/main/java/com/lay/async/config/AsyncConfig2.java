@@ -8,7 +8,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 
 /**
- * log配置类
+ * 异步线程池配置类2
  * @Description TODO 
  * @ClassName   LogConfig 
  * @Date        2018年11月9日 下午2:40:38 

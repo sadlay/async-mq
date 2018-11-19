@@ -17,6 +17,9 @@
     </parent>
     <modules>
         <module>async</module>
+        <module>activemq</module>
+        <module>rabbitmq</module>
+        <module>scheduled</module>
     </modules>
 
     <properties>
