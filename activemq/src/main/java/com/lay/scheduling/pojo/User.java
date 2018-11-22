@@ -1,6 +1,7 @@
 package com.lay.scheduling.pojo;
 
 import java.io.Serializable;
+import java.sql.SQLOutput;
 
 /**
  * @Description:
@@ -8,7 +9,7 @@ import java.io.Serializable;
  * @Date: Created in 11:11 2018/11/19
  * @Modified By:IntelliJ IDEA
  */
-public class User implements Serializable {
+public class User implements Serializable ,Cloneable{
 
     private static final long serialVersionUID = -6903703697701298934L;
 
@@ -49,4 +50,5 @@ public class User implements Serializable {
     public void setNote(String note) {
         this.note = note;
     }
+
 }
