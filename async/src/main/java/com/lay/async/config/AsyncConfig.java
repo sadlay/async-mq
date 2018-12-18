@@ -5,10 +5,7 @@ import org.springframework.scheduling.annotation.AsyncConfigurer;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
-import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.Executor;
 
 /**
@@ -34,5 +31,6 @@ public class AsyncConfig  implements AsyncConfigurer {
         //初始化
         taskExecutor.initialize();
         return taskExecutor;
+
     }
 }
