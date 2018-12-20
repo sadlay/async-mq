@@ -20,6 +20,8 @@
         <module>activemq</module>
         <module>rabbitmq</module>
         <module>scheduled</module>
+        <module>rabbitmq-two</module>
+        <module>rabbitmq-delay</module>
     </modules>
 
     <properties>

@@ -1,0 +1,11 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: rabbitmq_delay
+  rabbitmq:
+    host: 192.168.3.253
+    port: 5672
+    username: admin
+    password: 123456
