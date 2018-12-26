@@ -28,6 +28,5 @@ public class MessageConsumer {
         log.info("消费内容：{}",content);
         log.info("消费时间：{}",new Date());
         log.info("Message内容: {}", JSON.toJSONString(message));
-
     }
 }

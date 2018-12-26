@@ -28,7 +28,6 @@ public class Customer {
         try {
             channel.basicAck(message.getMessageProperties().getDeliveryTag(),true);
         } catch (IOException e) {
-
         }
     }
     //@RabbitHandler
