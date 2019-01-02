@@ -21,7 +21,7 @@ public class RabbitMqTopicTest {
 
     @Test
     public void topicTest(){
-        //topicSender.send1();
-        topicSender.send2();
+        topicSender.send1();
+        //topicSender.send2();
     }
 }

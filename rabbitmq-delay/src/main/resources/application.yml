@@ -5,7 +5,7 @@ spring:
   application:
     name: rabbitmq_delay
   rabbitmq:
-    host: 192.168.3.253
+    host: 192.168.0.103
     port: 5672
     username: admin
     password: 123456

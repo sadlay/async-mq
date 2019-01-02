@@ -4,8 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.lay.async_mq</groupId>
-        <artifactId>async_mq</artifactId>
+        <groupId>com.lay.async-mq</groupId>
+        <artifactId>async-mq</artifactId>
         <version>1.0</version>
     </parent>
 
