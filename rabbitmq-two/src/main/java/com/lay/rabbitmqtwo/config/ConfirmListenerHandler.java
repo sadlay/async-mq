@@ -13,14 +13,15 @@ import java.io.IOException;
  * @Modified By:IntelliJ IDEA
  */
 
-public class ConfirmCallBackHandler  implements RabbitTemplate.ConfirmCallback {
-
-
+public class ConfirmListenerHandler implements ConfirmListener {
 
     @Override
-    public void confirm(CorrelationData correlationData, boolean ack, String cause) {
-        System.out.println("消息唯一标识："+correlationData);
-        System.out.println("确认结果："+ack);
-        System.out.println("失败原因："+cause);
+    public void handleAck(long l, boolean b) throws IOException {
+
+    }
+
+    @Override
+    public void handleNack(long l, boolean b) throws IOException {
+
     }
 }

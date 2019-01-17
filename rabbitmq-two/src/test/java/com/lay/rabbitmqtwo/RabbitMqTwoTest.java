@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.io.IOException;
+
 /**
  * @Description:
  * @Author: lay
@@ -20,6 +22,10 @@ public class RabbitMqTwoTest {
     Producer producer;
     @Test
     public void test(){
-        producer.send();
+        try {
+            producer.send();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
